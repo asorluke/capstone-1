@@ -15,15 +15,19 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
+		<!-- Icon -->
+
+		<link rel="icon" href="./assets/images/favicon-32x32.png">
+
 	</head>
 	<body>
 
 		<!-- Nav Bar -->
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<nav class="navbar navbar-expand-lg bg-light fixed-top">
 		  <div class="container">
 		    <a class="navbar-brand" href="#">
-		    	<img src="./assets/images/bull_logo.png" alt="" id="logo">
+		    	<img src="./assets/images/la-dodgers-logo.png" alt="" id="logo">
 		    </a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
@@ -32,7 +36,7 @@
 		      <div class="navbar-nav">
 		        <a class="nav-link active" aria-current="page" href="./landing-page.html">Home</a>
 		        <a class="nav-link" href="#">Portfolio</a>
-		        <a class="nav-link" href="#">Contact</a>
+		        <a class="nav-link" href="./contact.html">Contact</a>
 		      </div>
 		    </div>
 		    <!-- end of brand -->
@@ -44,19 +48,17 @@
 		<!-- My Portfolio -->
 
 		
-	<header>
-		<div class="container card-container">
+	<section class="skills">
+		<!-- <div class="container card-container"> -->
 			<div>
-				<h2 class="text-light pt-4"><strong>My Portfolio</strong></h2>
+				<h2 class="text-light"><strong>My Skills</strong></h2>
 			</div>
 			<div class="row pt-4 pb-4">
-				<div class="col-sm-12 col-md-4 col-lg-3 pd-5">
+				<div class="col-sm-12 col-md-4 col-lg-3 pd-5" >
 					<div class="card">
-						<img src="./assets/images/HTML-5.png" alt="pic1" class="card-img-top pt-2 pe-2">
+						<img src="./assets/images/html-5_bw.svg" alt="pic1" class="card-img-top pt-2 pe-2">
 						<div class="body">
-							<h5 class="card-title">HTML</h5>
-							<p class="card-text">Stands for "Hypertext Markup Language" is a...</p>
-							<a href="#" class="btn btn-primary mb-2">Learn more</a>
+							<h5 class="card-title text-center">HTML</h5>
 						</div>
 
 					</div>
@@ -64,11 +66,9 @@
 
 				<div class="col-sm-12 col-md-4 col-lg-3 pd-5">
 					<div class="card">
-						<img src="./assets/images/CSS3_logo_and_wordmark.svg" alt="pic2" class="card-img-top pt-2 pe-2">
+						<img src="./assets/images/technologies/css.svg" alt="pic2" class="card-img-top pt-2 pe-2">
 						<div class="body">
-							<h5 class="card-title">CSS</h5>
-							<p class="card-text">Learn more</p>
-							<a href="#" class="btn btn-primary mb-2">Learn more</a>
+							<h5 class="card-title text-center">CSS</h5>
 						</div>
 
 					</div>
@@ -76,11 +76,9 @@
 
 				<div class="col-sm-12 col-md-4 col-lg-3 pd-5">
 					<div class="card">
-						<img src="./assets/images/js-logo.png" alt="pic3" class="card-img-top pt-2 pe-2">
+						<img src="./assets/images/technologies/javascript.svg" alt="pic3" class="card-img-top pt-2 pe-2">
 						<div class="body">
-							<h5 class="card-title">Javascript</h5>
-							<p class="card-text">Learn more</p>
-							<a href="#" class="btn btn-primary mb-2">Learn more</a>
+							<h5 class="card-title text-center">Javascript</h5>
 						</div>
 
 					</div>
@@ -88,22 +86,70 @@
 
 				<div class="col-sm-12 col-md-4 col-lg-3 pd-5">
 					<div class="card">
-						<img src="./assets/images/GitLab-logo.png" alt="pic3" class="card-img-top pt-2 pe-2">
+						<img src="./assets/images/technologies/gitlab.svg" alt="pic3" class="card-img-top pt-2 pe-2">
 						<div class="body">
-							<h5 class="card-title">GitLab</h5>
-							<p class="card-text">Learn more</p>
-							<a href="#" class="btn btn-primary mb-2">Learn more</a>
+							<h5 class="card-title text-center">GitLab</h5>
 						</div>
 					</div>
 				</div>
+
+				<!-- <div class="col-sm-12 col-md-4 col-lg-2 pd-5">
+					<div class="card">
+						<img src="./assets/images/technologies/chrome.svg" alt="pic3" class="card-img-top pt-2 pe-2">
+						<div class="body">
+							<h5 class="card-title text-center">Chrome Developer Tools</h5>
+						</div>
+					</div>
+				</div> -->
 
 			</div>
 
 			<!-- end of row -->
-		</div>
+	</section>
 
-		<!-- end of containter -->
-	</header>
+	<section class="projects">
+		<div>
+			<h2 class="text-light"><strong>My Recent Projects</strong></h2>
+		</div>
+		<div class="row pt-4 pb-4 align-items-center">
+			<div class="col-sm-12 col-md-4 col-lg-4 pd-5">
+					<div class="card">
+						<img src="./assets/images/projects/travel.jpeg" alt="pic1" class="img-fluid card-img-top pt-2 pe-2 project">
+						<div class="body align-items-center">
+							<a href="https://gitlab.com/tuitt/students/batch120/luke-asor/s01/a1" target="_blank">
+								<h5 class="card-title text-center">My Personal Blog</h5>
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 pd-5">
+					<div class="card">
+						<img src="./assets/images/projects/quiz.jpeg" alt="pic2" class="img-fluid card-img-top pt-2 pe-2 project">
+						<div class="body">
+							<a href="https://gitlab.com/tuitt/students/batch120/luke-asor/s01/a1" target="_blank">
+								<h5 class="card-title text-center">Online Quiz</h5>
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 pd-5">
+					<div class="card">
+						<img src="./assets/images/projects/ps.jpeg" alt="pic3" class="img-fluid card-img-top pt-2 pe-2 project">
+						<div class="body">
+							<a href="https://gitlab.com/tuitt/students/batch120/luke-asor/s01/a1" target="_blank">
+								<h5 class="card-title text-center">HTML 5 Game</h5>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			
+		</div>
+	</section>
 
 	<footer class="fixed-bottom">
 				<div class="container-fluid text-center">

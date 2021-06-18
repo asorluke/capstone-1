@@ -14,7 +14,7 @@
 }
 
 nav {
-	border-bottom: 5px solid #6dccde;
+	/*border-bottom: 5px solid #6dccde;*/
 	background-image: url(../images/matrix.png);
 
 	
@@ -27,17 +27,17 @@ nav {
 .page-header {
 	color: white;
 	margin-top: 64px;
+	
 	background-image: url(../images/matrix.png);
 
 }
 
-.gradient, .card-container {
+/*.gradient, .card-container {
 	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,75,103,1) 54%, rgba(0,114,255,1) 100%);
 	margin-top: 64px;
 	margin-bottom: 64px;
-
-}
+}*/
 
 h1 {
 	font-size: 70px;
@@ -69,10 +69,70 @@ header {
 }
 
 footer {
-	border-top: 5px solid #6dccde;
+	/*border-top: 5px solid #6dccde;*/
 	position: fixed;
 	background-image: url(../images/matrix.png);
 }
+
+#container {
+	width: 100%;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+div li {
+	list-style-type: none;
+}
+
+.contact, .skills, .work-experience, .work, .projects, .gradient, .card-container{
+
+	margin: 100px 100px 50px 100px;
+	padding: 20px;
+	background-image: url(../images/matrix.png);
+	align-content: center;
+
+}
+
+.mapouter {
+	margin: auto;
+}
+
+#contact, label {
+	color: white;
+}
+
+.card {
+	/*margin: auto;*/
+	display: flex;
+} 
+
+.social-media {
+	/*margin-left: 100px;	*/
+	margin-top: 30px;
+	margin-bottom: 120px;
+	align-content: center;
+}
+
+.project {
+	width: 350px;
+	height: 200px;
+	align-content: center;
+}
+
+hr {
+	color: #0072ff;
+}
+
+.projects {
+	margin-bottom: 100px;
+}
+
+.work-experience {
+	margin-top: 50px;
+}
+
+
+
 
 
 
